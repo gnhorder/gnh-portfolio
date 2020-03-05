@@ -3,6 +3,7 @@
 hr {
 
  border: none;
+    padding: 10px;
 }
 
 
@@ -160,7 +161,7 @@ h1:after {
 }
     
 .bg-change {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     width: 200px;
@@ -178,18 +179,18 @@ h1:after {
     background: #f2e9c0;
 }
 .bg-change.no2 {
-    top: 360px;
+    top: 320px;
     left: 150px;
     background: #3dc0ce;
 }
 .bg-change.no3 {
-    top: 420px;
+    top: 340px;
     left: 150px;
     background: #ffc9e6;
 }
     
 .bg-change.no4 {
-    top: 480px;
+    top: 360px;
     left: 150px;
     background: #ccc;
 }
